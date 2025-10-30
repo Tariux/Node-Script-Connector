@@ -1,19 +1,14 @@
 {
   "name": "node-script-connector",
   "version": "1.0.0",
-  "description": "A scalable, OOP-based script connector for Node.js that enables seamless execution of scripts and functions across multiple programming languages (Python, JavaScript, Go, Bash, etc.) with advanced features like caching, priority queues, and concurrent execution management.",
+  "description": "A scalable script connector for Node.js that enables seamless execution of scripts and functions across multiple programming languages (Python, JavaScript, Go, Bash, etc.) with advanced features like caching, priority queues, and concurrent execution management.",
   "main": "index.js",
   "scripts": {
-    "test": "wsl node tests/runner.js",
-    "test:basic": "wsl node tests/test-basic.js",
-    "test:config": "wsl node tests/test-config.js",
-    "test:parsers": "wsl node tests/test-parsers.js",
-    "test:queue": "wsl node tests/test-task-queue.js",
-    "example:basic": "wsl node examples/basic-usage.js",
-    "example:advanced": "wsl node examples/advanced-config.js",
-    "example:async": "wsl node examples/async-processing.js",
-    "lint": "echo 'No linter configured'",
-    "build": "echo 'No build step required'"
+    "py:example:image": "node examples/image.js",
+    "py:example:math": "node examples/math.js",
+    "lint": "eslint --fix",
+    "build": "echo 'No build step required'",
+    "publish": "npm publish"
   },
   "keywords": [
     "script-connector",
@@ -26,7 +21,13 @@
     "interoperability",
     "task-queue",
     "caching",
-    "concurrent"
+    "concurrent",
+    "config-manager",
+    "script-execution",
+    "cross-language",
+    "async-processing",
+    "resource-management",
+    "cluster-scaling"
   ],
   "author": "opiumdev <opiumdev@proton.me>",
   "license": "MIT",
@@ -44,12 +45,10 @@
   "files": [
     "index.js",
     "lib/",
-    "README.md",
-    "LICENSE"
+    "README.md"
   ],
   "directories": {
     "lib": "lib",
-    "example": "examples",
-    "test": "tests"
+    "example": "examples"
   }
 }
