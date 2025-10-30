@@ -57,10 +57,8 @@ const config = {
   scripts: {
     name: 'path/to/script.ext'
   },
-  cache: {
-    enabled: true,
-    ttl: 300000
-  },
+
+
   scaling: {
     enabled: false,        // Enable cluster scaling
     maxWorkers: 8
