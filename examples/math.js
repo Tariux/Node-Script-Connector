@@ -37,3 +37,11 @@ setInterval(() => {
 setInterval(() => {
     testThree();
 }, 100);
+
+setInterval(() => {
+    testThree();
+}, 700);
+
+setInterval(() => {
+    testThree();
+}, 50);
