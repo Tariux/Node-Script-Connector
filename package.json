@@ -1,0 +1,55 @@
+{
+  "name": "node-script-connector",
+  "version": "1.0.0",
+  "description": "A scalable, OOP-based script connector for Node.js that enables seamless execution of scripts and functions across multiple programming languages (Python, JavaScript, Go, Bash, etc.) with advanced features like caching, priority queues, and concurrent execution management.",
+  "main": "index.js",
+  "scripts": {
+    "test": "wsl node tests/runner.js",
+    "test:basic": "wsl node tests/test-basic.js",
+    "test:config": "wsl node tests/test-config.js",
+    "test:parsers": "wsl node tests/test-parsers.js",
+    "test:queue": "wsl node tests/test-task-queue.js",
+    "example:basic": "wsl node examples/basic-usage.js",
+    "example:advanced": "wsl node examples/advanced-config.js",
+    "example:async": "wsl node examples/async-processing.js",
+    "lint": "echo 'No linter configured'",
+    "build": "echo 'No build step required'"
+  },
+  "keywords": [
+    "script-connector",
+    "multi-language",
+    "python",
+    "javascript",
+    "go",
+    "bash",
+    "execution",
+    "interoperability",
+    "task-queue",
+    "caching",
+    "concurrent"
+  ],
+  "author": "opiumdev <opiumdev@proton.me>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/opiumdev/node-script-connector.git"
+  },
+  "bugs": {
+    "url": "https://github.com/opiumdev/node-script-connector/issues"
+  },
+  "homepage": "https://github.com/opiumdev/node-script-connector#readme",
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "files": [
+    "index.js",
+    "lib/",
+    "README.md",
+    "LICENSE"
+  ],
+  "directories": {
+    "lib": "lib",
+    "example": "examples",
+    "test": "tests"
+  }
+}
