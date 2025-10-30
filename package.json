@@ -33,12 +33,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/opiumdev/node-script-connector.git"
+    "url": "https://github.com/Tariux/Node-Script-Connector.git"
   },
   "bugs": {
-    "url": "https://github.com/opiumdev/node-script-connector/issues"
+    "url": "https://github.com/Tariux/Node-Script-Connector/issues"
   },
-  "homepage": "https://github.com/opiumdev/node-script-connector#readme",
+  "homepage": "https://github.com/Tariux/Node-Script-Connector#readme",
   "engines": {
     "node": ">=12.0.0"
   },
