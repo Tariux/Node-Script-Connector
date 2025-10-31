@@ -5,14 +5,14 @@ A scalable script connector for Node.js that executes scripts and functions acro
 ## Installation
 
 ```bash
-npm install node-script-connector
+npm install script-connector
 ```
 
 ## Quick Start
 
 ### Basic Usage
 ```javascript
-const { ScriptConnector } = require('node-script-connector');
+const { ScriptConnector } = require('script-connector');
 
 const connector = new ScriptConnector({
   scripts: {
@@ -30,7 +30,7 @@ connector.api.math.add(10, 5).then(console.log);
 
 ### Advanced Usage
 ```javascript
-const { AdvancedScriptConnector } = require('node-script-connector');
+const { AdvancedScriptConnector } = require('script-connector');
 
 const connector = new AdvancedScriptConnector({
   maxConcurrent: 8,
@@ -146,7 +146,7 @@ SCRIPT_CONNECTOR_METRICS_ENABLED=true
 Generate a configuration template:
 
 ```javascript
-const { ConfigManager } = require('node-script-connector');
+const { ConfigManager } = require('script-connector');
 const manager = new ConfigManager();
 console.log(manager.generateTemplate());
 ```

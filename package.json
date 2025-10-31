@@ -1,6 +1,6 @@
 {
   "name": "script-connector",
-  "version": "1.0.2",
+  "version": "1.0.1",
   "description": "A scalable script connector for Node.js that enables seamless execution of scripts and functions across multiple programming languages (Python, JavaScript, Go, Bash, etc.) with advanced features like caching, priority queues, and concurrent execution management.",
   "main": "index.js",
   "scripts": {
