@@ -72,6 +72,7 @@ const config = {
     '.js': 'node',        // JavaScript files
     '.go': 'go run',      // Go programs
     '.sh': 'bash'         // Shell scripts
+    '.v': 'v run'         // V-Lang scripts
   },
 
   // Caching Configuration
